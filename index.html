@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjay M | Mechanical Design Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="gear-overlay"></div>
+
+  <div class="container">
+    <header>
+      <div class="logo"><img src="assets/images/logo.jpg" alt=""></div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Sanjay M</h1>
+      <h2>Mechanical Design Engineer</h2>
+      <p class="specialization">SolidWorks Specialist | CAD Design | Product Development</p>
+      <a href="#projects" class="cta-btn">View My Work</a>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <h3>About Me</h3>
+        <div class="divider"></div>
+      </div>
+      <div class="about-content">
+        <div class="bio">
+          <p>I’m Sanjay M, a second-year Mechanical Engineering student at KGiSL Institute of Technology. I specialize in SolidWorks with experience in part modeling, assembly, drafting, and sheet metal design, and I’ve worked on several design-related projects. I also know the basics of Python and JavaScript, and have created projects that combine engineering and coding. I’m passionate about building smart and practical solutions.</p>
+          <div class="resume-download">
+            <a href="Sanjay_M_Resume_Professional.pdf" download class="resume-btn">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+        <div class="skills">
+          <h4>Core Competencies</h4>
+          <ul>
+            <li><i class="fas fa-cog"></i> SolidWorks</li>
+            <li><i class="fas fa-cube"></i> 3D Modeling & Assembly</li>
+            <li><i class="fas fa-project-diagram"></i> Product Development</li>
+                <li><i class="fab fa-python"></i> Python</li>
+    <li><i class="fab fa-js-square"></i> JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h3>My Projects</h3>
+        <div class="divider"></div>
+      </div>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="automation">Automation</button>
+        <button class="filter-btn" data-filter="product">Product Design</button>
+      </div>
+      <div class="projects-grid" id="projects-container">
+        <!-- Projects will be loaded dynamically from JSON -->
+      </div>
+    </section>
+
+    <!-- Coding Projects Section -->
+    <section id="coding-projects" class="section">
+      <div class="section-header">
+        <h3>Coding Projects</h3>
+        <div class="divider"></div>
+      </div>
+
+      <div class="compact-projects-grid">
+
+        <!-- Timetable Generator -->
+        <a href="https://sanjaystd.github.io/timetable/" target="_blank" class="project-card-link">
+          <div class="compact-project-card">
+            <div class="compact-project-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="compact-project-info">
+              <h4>Timetable Generator</h4>
+              <div class="compact-project-meta">
+                <span class="tech-tag">Python</span>
+                <i class="fab fa-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- CGPA Calculator -->
+        <a href="https://sanjaystd.github.io/cgpa/" target="_blank" class="project-card-link">
+          <div class="compact-project-card">
+            <div class="compact-project-icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <div class="compact-project-info">
+              <h4>CGPA Calculator</h4>
+              <div class="compact-project-meta">
+                <span class="tech-tag">JavaScript</span>
+                <i class="fab fa-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Finance Tracker -->
+        <a href="https://github.com/yourusername/finance-tracker" target="_blank" class="project-card-link">
+          <div class="compact-project-card">
+            <div class="compact-project-icon">
+              <i class="fas fa-wallet"></i>
+            </div>
+            <div class="compact-project-info">
+              <h4>Finance Tracker</h4>
+              <div class="compact-project-meta">
+                <span class="tech-tag">Python</span>
+                <i class="fab fa-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Finance Tracker -->
+        <a href="https://github.com/yourusername/finance-tracker" target="_blank" class="project-card-link">
+          <div class="compact-project-card">
+            <div class="compact-project-icon">
+              <i class="fas fa-wallet"></i>
+            </div>
+            <div class="compact-project-info">
+              <h4>Personal Portfolio</h4>
+              <div class="compact-project-meta">
+                <span class="tech-tag">JavaScript</span>
+                <i class="fab fa-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+      <div class="section-header">
+        <h3>Certifications</h3>
+        <div class="divider"></div>
+      </div>
+      <div class="coursera-certifications">
+        <div class="cert-summary">
+          <i class="fas fa-certificate"></i>
+          <h4>25+ Coursera Certificates in Mechanical Engineering & Related Fields</h4>
+        </div>
+        <!-- <ul class="cert-highlights">
+          <li>SolidWorks Simulation Specialization</li>
+          <li>Advanced Manufacturing Process Analysis</li>
+          <li>Engineering Project Management</li>
+          <li>Materials Science and Engineering</li>
+          <li>Robotics: Aerial Robotics</li>
+        </ul> -->
+        <a href="path/to/your/coursera_certificates.pdf" class="pdf-view-btn" target="_blank">
+          <i class="fas fa-file-pdf"></i> View All Certificates (PDF)
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="section-header">
+        <h3>Get In Touch</h3>
+        <div class="divider"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h4>Contact Information</h4>
+          <ul>
+            <li><i class="fas fa-envelope"></i> sanjaymuppidathi0106@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +91 6381810641</li>
+            <li><i class="fas fa-map-marker-alt"></i> Coimbatore, India</li>
+          </ul>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/sanjay-m-8013a4282/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://grabcad.com/sanjay.m-33" target="_blank"><i class="fas fa-cube"></i></a>
+             <a href="https://github.com/sanjaystd" target="_blank"><i class="fab fa-github"></i></a> <!-- NEW GitHub Icon -->
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Sanjay M. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

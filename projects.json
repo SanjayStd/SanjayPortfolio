@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Wheel Barrow Assembly",
+    "description": "A wheelbarrow is a simple tool used for carrying things. It has one wheel at the front and two handles at the back to push or pull it. People use wheelbarrows in places like construction sites, gardens, or farms to move heavy things like dirt, rocks, plants, or tools.",
+    "tools": "SolidWorks •3D Model ",
+    "image": "assets/images/wheel barrow.png",
+    "link": "https://grabcad.com/library/wheelbarrow-3d-assembly-solidworks-design-1",
+    "category": "product"
+  },
+  {
+    "title": "Rotor Motor Assembly",
+    "description": "A rotor motor uses a rotating rotor and stationary stator to convert electrical energy into mechanical motion. Using SolidWorks, you can design, assemble, and simulate the motor components for various applications like electric vehicles and industrial machines.",
+    "tools": "SolidWorks • Motion Study ",
+    "image": "assets/images/rotor motor.png",
+    "link": "https://grabcad.com/library/rotor-motor-assembly-solidworks-3d-model-1",
+    "category": "automation"
+  },
+  {
+    "title": "Roller Assembly",
+    "description": "A roller is a cylindrical tool used to apply force or pressure, often for flattening, smoothing, or transporting materials. It is commonly used in contruction, printing, and material handling applications.",
+    "tools": "SolidWorks • 3D Assembly ",
+    "image": "assets/images/roller.png",
+    "link": "https://grabcad.com/library/roller-assembly-solidworks-cad-model-1",
+    "category": "automation"
+  }
+]
