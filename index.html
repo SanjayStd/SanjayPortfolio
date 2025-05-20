@@ -40,7 +40,7 @@
         <div class="bio">
           <p>I’m Sanjay M, a second-year Mechanical Engineering student at KGiSL Institute of Technology. I specialize in SolidWorks with experience in part modeling, assembly, drafting, and sheet metal design, and I’ve worked on several design-related projects. I also know the basics of Python and JavaScript, and have created projects that combine engineering and coding. I’m passionate about building smart and practical solutions.</p>
           <div class="resume-download">
-            <a href="Sanjay_M_Resume_Professional.pdf" download class="resume-btn">
+            <a href="SANJAY M_RESUME (2).pdf" download class="resume-btn">
               <i class="fas fa-download"></i> Download Resume
             </a>
           </div>
@@ -68,10 +68,14 @@
         <button class="filter-btn" data-filter="automation">Automation</button>
         <button class="filter-btn" data-filter="product">Product Design</button>
       </div>
-      <div class="projects-grid" id="projects-container">
-        <!-- Projects will be loaded dynamically from JSON -->
-      </div>
-    </section>
+      <div id="projects-wrapper">
+  <button id="left-arrow" aria-label="Scroll Left">&#8592;</button>
+  <div id="projects-container">
+    <!-- Project cards inserted here dynamically -->
+  </div>
+  <button id="right-arrow" aria-label="Scroll Right">&#8594;</button>
+</div> <!-- ✅ Close projects-wrapper here -->
+</section>
 
     <!-- Coding Projects Section -->
     <section id="coding-projects" class="section">

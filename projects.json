@@ -16,6 +16,14 @@
     "category": "automation"
   },
   {
+    "title": "Bending Roller Machine",
+    "description": "This bending roller machine is designed in SolidWorks to bend sheet metal into curved shapes. It features precisely aligned rollers and a sturdy support frame for accurate metal forming. The model demonstrates key mechanical design concepts used in fabrication and manufacturing.",
+    "tools": "SolidWorks • 3D Assembly ",
+    "image": "assets/images/bending roller machine.png",
+    "link": "https://grabcad.com/library/bending-roller-machine-solidworks-assembly-1",
+    "category": "automation"
+  },
+  {
     "title": "Roller Assembly",
     "description": "A roller is a cylindrical tool used to apply force or pressure, often for flattening, smoothing, or transporting materials. It is commonly used in contruction, printing, and material handling applications.",
     "tools": "SolidWorks • 3D Assembly ",
