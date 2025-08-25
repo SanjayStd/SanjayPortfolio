@@ -6,8 +6,8 @@
     "image": "images/conveyor.png",
     "link": "https://grabcad.com/library/conveyor-system-solidworks-2024-1",
     "category": "automation"
-  }
-{
+  },
+  {
     "title": "Wheel Barrow Assembly",
     "description": "A wheelbarrow is a simple tool used for carrying things. It has one wheel at the front and two handles at the back to push or pull it. People use wheelbarrows in places like construction sites, gardens, or farms to move heavy things like dirt, rocks, plants, or tools.",
     "tools": "SolidWorks • 3D Model",
@@ -37,14 +37,6 @@
     "tools": "SolidWorks • 3D Assembly",
     "image": "images/roller.png",
     "link": "https://grabcad.com/library/roller-assembly-solidworks-cad-model-1",
-    "category": "automation"
-  },
-  {
-    "title": "Conveyor System",
-    "description": "The conveyor system is a mechanical handling equipment used to move materials efficiently across a facility. Designed in SolidWorks, this model demonstrates the working mechanism of belts, rollers, and motor-driven assemblies widely used in manufacturing and automation industries.",
-    "tools": "SolidWorks • 3D Assembly",
-    "image": "images/conveyor system.png",
-    "link": "https://grabcad.com/library/conveyor-system-solidworks-2024-1",
     "category": "automation"
   }
 ]
